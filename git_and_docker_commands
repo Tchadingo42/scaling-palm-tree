@@ -1,0 +1,37 @@
+1) Docker
+
+sudo systemctl status docker
+docker ps -a
+docker container ls -a
+sudo docker container ls -aq
+docker container stop [container_id]
+docker container stop $(docker container ls –aq)
+docker container rm [container_id]
+docker system prune
+docker-compose config
+docker-compose logs -f --tail 5
+docker-compose up
+docker-compose down
+
+*************************************************************************************
+
+2) Git
+
+git config --global --list
+git clone --branch <branch name> <url>
+git checkout -b ma_branche_de_developpement
+git push -u repository_distant ma_branche_de_developpement
+git push --set-upstream origin feature/CRUD_USER_CHRIS
+git commit  --amend -m "new message"
+git log
+git revert a186ab(last 6 values on the git log)
+git push origin +wbranch
+git reset --soft HEAD~1
+git reset --hard(6 digits)
+git reflog
+git fetch
+git merge
+git -graph --full-history --all
+git pull
+gitk
+
