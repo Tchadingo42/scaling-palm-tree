@@ -35,3 +35,15 @@ git -graph --full-history --all
 git pull
 gitk
 
+*************************************************************************************
+
+(3) VS Code pluggins && shortcuts
+
+Auto Rename Tag
+Bracket pair colorizer
+Snippets
+Import Cost
+Bracket Pair Colorizer
+npm Intellisense
+Blockman
+Dracula at night
