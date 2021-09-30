@@ -1,0 +1,22 @@
+body
+{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: cursive;
+    padding: 0px 15%;
+}
+
+h1
+{
+    text-transform: uppercase;
+}
+
+img
+{
+    object-fit: cover;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(52,52,52 ,0.3);
+}
