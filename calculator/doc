@@ -1,0 +1,17 @@
+-)npm -g -> global packages
+
+-)Le dom est une interface nous autorisant a utiliser programmes et scripts pouvant acceder et modifier dynamiquement le contenu d'un document
+
+-)Le navigateur autorise la modification du document a travers des api's
+
+-)VDOM -> Le dom virtuelle de react . quand un state est modifier dans notre code react il effectue la mise a jour dans le vdom en premier
+
+-)Quand le VDOM est mis a jour react en fait la comparaison avec la version precedente (snapshot) et met uniquement a jour les modifications
+
+-)Les modifications du veritable dom sont lente car elle doivent re imprimer l'interface react optimize donc l'app 
+
+-)Les elemets react sont immutables , une fois changer vous ne pouvez pas changer ces attributs
+
+-)Les props proviennent de l'exterieur du composant, Le state est une "propriété", son état local
+
+
